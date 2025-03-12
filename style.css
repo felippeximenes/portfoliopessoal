@@ -111,6 +111,9 @@
     justify-content: center;
     gap: 1.5rem;
   }
+  
+  
+  
   .info-box h3 {
     font-size: 1.8rem;
     font-weight: 500;
@@ -130,6 +133,14 @@
     display: flex;
     gap: 1rem;
   }
+
+  .text span {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
   .btn {
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
