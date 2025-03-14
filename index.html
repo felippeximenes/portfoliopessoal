@@ -118,7 +118,7 @@
         </div>
 
         <div class="project-card">
-          <img src="img2.webp" alt="">
+          <img src="img2.png" alt="">
           <h3>Project Y</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, corrupti.</p>
           <div class="btn-group">
@@ -146,12 +146,17 @@
 
         <h2 class="section-title">Contato</h2>
 
-        <div class="input">
-          <input type="text" placeholder="example@email.com">
-          <i class="fa-solid fa-envelope"></i>
-        </div>
+        <form action="https://formsubmit.co/ajax/felippelpximenes@outlook.com" method="POST" data-form>
+          <h2>Nome</h2>
+          <input type="text" name="nome" id="nome"  required/>
+          <h2>E-mail</h2>
+          <input type="email" name="email" id="email"   required/>
+          <h2>Mensagem</h2>
+          <textarea name="mensagem" id="mensagem" required></textarea>
 
-        <div class="btn">Enviar</div>
+        </form>
+        <button type="submit" class="btn" data-button>Enviar</button>
+        
       </div>
       
     </section>
